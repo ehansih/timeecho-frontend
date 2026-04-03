@@ -1,3 +1,15 @@
+<div align="center">
+
+# ⏳ TimeEcho Frontend
+
+Next.js 14 living memory app — AI-powered image-to-video.
+
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript) ![Vercel](https://img.shields.io/badge/Vercel-deployed-black?logo=vercel) ![Last Commit](https://img.shields.io/github/last-commit/ehansih/timeecho-frontend)
+
+</div>
+
+---
+
 # TimeEcho Frontend
 
 A time-aware memory platform frontend built with Next.js 14 and TypeScript.
