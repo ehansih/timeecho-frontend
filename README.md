@@ -42,3 +42,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Author
 **Harsh Vardhan Singh Chauhan** — [github.com/ehansih](https://github.com/ehansih)
+
+## Security
+
+This site is hardened with the following HTTP security headers, configured via `next.config.mjs`:
+
+| Header | Value |
+|--------|-------|
+| `X-Frame-Options` | `SAMEORIGIN` — prevents clickjacking |
+| `X-Content-Type-Options` | `nosniff` — prevents MIME sniffing |
+| `Referrer-Policy` | `strict-origin-when-cross-origin` |
+| `Permissions-Policy` | Camera, mic, geolocation, payment blocked |
+| `X-XSS-Protection` | `1; mode=block` |
+
+HTTPS and HSTS are enforced automatically by Vercel.
